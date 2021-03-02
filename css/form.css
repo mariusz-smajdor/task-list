@@ -1,0 +1,29 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+}
+
+@media (max-width: 767px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form__field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.form__submit {
+  padding: 10px;
+  color: white;
+  background: teal;
+  border: unset;
+  transition: 1s;
+}
+
+.form__submit:hover {
+  background: hsl(180, 100%, 30%);
+}
