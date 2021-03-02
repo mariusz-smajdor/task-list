@@ -1,0 +1,18 @@
+.section {
+  background: white;
+  margin-bottom: 10px;
+}
+
+.section__header {
+  padding: 20px;
+  border-bottom: 2px solid #eee;
+}
+
+.section__title {
+  margin: 0;
+  color: #333;
+}
+
+.section__body {
+  padding: 20px;
+}
