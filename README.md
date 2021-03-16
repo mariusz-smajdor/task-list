@@ -8,4 +8,5 @@ https://mariusz-smajdor.github.io/task-list/
 
 ## Conventions
 
-1. BEM
+- BEM
+- Immutability
