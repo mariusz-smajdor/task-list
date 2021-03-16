@@ -1,4 +1,4 @@
-# task-list
+# Task list
 
 <img src="images/icon.png" width="150" height="150" alt="logo" />
 
