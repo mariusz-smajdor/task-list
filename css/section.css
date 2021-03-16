@@ -6,6 +6,17 @@
 .section__header {
   padding: 20px;
   border-bottom: 2px solid #eee;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .section__header {
+    grid-template-columns: 1fr;
+  }
 }
 
 .section__title {
